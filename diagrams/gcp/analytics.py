@@ -48,6 +48,10 @@ class Pubsub(_Analytics):
     _icon = "pubsub.png"
 
 
+class Stackdriver(_Analytics):
+    _icon = "stackdriver.png"
+
+
 # Aliases
 
 BigQuery = Bigquery
